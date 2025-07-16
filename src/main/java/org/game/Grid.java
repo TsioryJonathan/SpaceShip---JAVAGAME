@@ -53,4 +53,6 @@ public class Grid {
         }
         System.out.println("Junk left : " + junkRemaining);
     }
+
+
 }
