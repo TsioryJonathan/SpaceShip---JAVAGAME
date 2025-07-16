@@ -6,8 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class Ship {
-    private int x;
-    private int y;
+    private int x, y;
 
     public boolean move(String direction, int size) {
         int newX = x;
@@ -25,7 +24,7 @@ public class Ship {
             y = newY;
             return true;
         } else {
-            System.out.println("Invalid move!");
+            System.out.println("Invalid move !");
             return false;
         }
     }
