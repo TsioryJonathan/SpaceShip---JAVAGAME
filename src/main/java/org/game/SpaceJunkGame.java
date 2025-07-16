@@ -20,7 +20,7 @@ public class SpaceJunkGame {
             grid.printGrid();
             System.out.println("Score : " + score + " | Move left : " + (MAX_MOVES - moves));
             System.out.print("Enter a direction (U, D, L, R) : ");
-            String direction = scanner.nextLine().trim().toLowerCase();
+            String direction = scanner.nextLine().trim().toUpperCase();
 
             int prevX = ship.getX();
             int prevY = ship.getY();
